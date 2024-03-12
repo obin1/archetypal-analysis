@@ -52,3 +52,16 @@ class ChemicalCase:
 # load in a data example: assumed local, though a full path can be specified
 filepath = "samples/LosAngeles_L1_20180702_1900.txt"
 la_surface = ChemicalCase(filepath)
+
+
+# # Looking at Data
+# # List all attributes and their values of my_object
+# attributes = vars(la_surface)
+# for attribute, value in attributes.items():
+#     print(f"{attribute}: {value}")
+#     # print(attribute)
+#     try:
+#         print(len(value))
+#     except:
+#         pass
+#     print('------------------------------------')
